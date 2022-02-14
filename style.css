@@ -205,8 +205,8 @@ header i{
     margin-top: -6px;
 }
 
-@media screen and (max-width: 384px){
+@media screen and (max-width: 400px){
     .wrapper{
-        width: 330px;
+        width: 355px;
     }
 }
