@@ -208,10 +208,6 @@ header i{
 
 @media screen and (max-width: 400px){
     .wrapper{
-<<<<<<< HEAD
         width: 355px;
-=======
-        width: 340px;
->>>>>>> faedb595139efa64847d24fede4838fe532df178
     }
 }
