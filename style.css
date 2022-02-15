@@ -84,6 +84,8 @@ header i{
 .input-part input{
     text-align: center;
     border: 1px solid #bfbfbf;
+    margin-bottom: 14px;
+    border-radius: 8px;
 }
 
 .input-part input:is(:focus, :valid){
@@ -114,8 +116,12 @@ header i{
     background: #43AFFC;
 }
 
-.btn, .btn-2{
-    margin-bottom: 10px;
+.btn{
+    margin-bottom: 5px;
+}
+
+.btn-2{
+    margin-top: 10px;
     border-radius: 8px;
 }
 
