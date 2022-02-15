@@ -114,7 +114,7 @@ header i{
     background: #43AFFC;
 }
 
-.btn{
+.btn, .btn-2{
     margin-bottom: 10px;
     border-radius: 8px;
 }
