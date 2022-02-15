@@ -118,6 +118,7 @@ header i{
 
 .btn{
     margin-bottom: 5px;
+    border-radius: 8px;
 }
 
 .btn-2{
