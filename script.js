@@ -57,6 +57,10 @@ function weatherDetails(info){
     if(info.message = "Nothing to geocode"){
         infotxt.innerText = "Please enter a city name";
     }
+    inputfield.addEventListener("keypress", () => {
+        infotxt.innerText = "" ;
+        infotxt.classList.remove("error");   
+    })
     infotxt.classList.replace("pending","error");
     if(info.cod == "404"){
         infotxt.innerText = `${inputfield.value} isn't a valid city`;
